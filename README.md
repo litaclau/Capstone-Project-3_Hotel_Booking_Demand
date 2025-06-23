@@ -1,7 +1,6 @@
 # CAPSTONE 3: Predicting Hotel Booking Cancellations
 
-Dalam Capstone Project ini saya membangun sebuah model machine learning menggunakan dataset **Hotel Booking Demand**.  
-Sumber dataset: [Link Dataset](https://drive.google.com/drive/folders/17KIeOXK7eYGuzgpn_IljlUFcE4v96lSL)
+Dalam Capstone Project ini saya membangun sebuah model machine learning menggunakan dataset **Hotel Booking Demand**, Adapun sumber dataset yakni https://drive.google.com/drive/folders/17KIeOXK7eYGuzgpn_IljlUFcE4v96lSL
 
 ---
 
