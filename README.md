@@ -16,11 +16,7 @@ Dalam Capstone Project ini saya membangun sebuah model machine learning mengguna
 
 ## Business Problem Understanding
 
-Industri perhotelan sangat dipengaruhi oleh perilaku pemesanan customer atau tamu hotel.  
-Perilaku ini dipengaruhi oleh beberapa faktor di antaranya faktor musiman (weekend, weekday, holiday), event (lokal & internasional), ekonomi, promosi serta diskon, dan lain sebagainya.  
-Akibat ketidakpastian ini, pihak hotel harus memahami dan mengantisipasi perilaku customer yang berisiko merugikan hotel.  
-Dalam hal ini, pembatalan reservasi yang berdampak pada operasional dan keuangan hotel.  
-Tindakan antisipasi yang dapat dilakukan yakni memprediksi kemungkinan pembatalan reservasi oleh customer dengan memanfaatkan data historis pemesanan hotel sebelumnya.
+Industri perhotelan sangat dipengaruhi oleh perilaku pemesanan customer atau tamu hotel. Perilaku ini dipengaruhi oleh beberapa faktor di antaranya faktor musiman (weekend, weekday, holiday), event (lokal & internasional), ekonomi, promosi serta diskon, dan lain sebagainya. Akibat ketidakpastian ini, pihak hotel harus memahami dan mengantisipasi perilaku customer yang berisiko merugikan hotel. Dalam hal ini, pembatalan reservasi yang berdampak pada operasional dan keuangan hotel. Tindakan antisipasi yang dapat dilakukan yakni memprediksi kemungkinan pembatalan reservasi oleh customer dengan memanfaatkan data historis pemesanan hotel sebelumnya.
 
 ---
 
@@ -44,9 +40,9 @@ Dataset terdiri dari 11 kolom yang terdiri dari 10 feature dan 1 target, yakni:
 
 ## Data Preprocessing
 
-- Melakukan imputasi pada missing value di feature `country`.
-- Melakukan pengodean Ordinal dan One-Hot pada feature kategorik.
-- Melakukan Robust Scaling untuk feature numerik.
+- Melakukan imputasi pada missing value di feature `country`
+- Melakukan pengodean Ordinal dan One-Hot pada feature kategorik
+- Melakukan Robust Scaling untuk feature numerik
 
 ---
 
@@ -63,6 +59,4 @@ Model machine learning yang diuji adalah sebagai berikut:
 
 ## Kesimpulan
 
-Model machine learning **XGBoost** berhasil memprediksi pembatalan reservasi hotel guna meminimalisasi risiko kerugian finansial, membantu pengambilan keputusan tim revenue management dan front office hotel, serta mengoptimalkan operasional hotel.  
-Nilai akurasi yang dihasilkan model sebesar **72%** dan recall pada kelas batal reservasi sebesar **80%**.  
-Angka ini sesuai dengan target dan kebutuhan bisnis yang telah ditetapkan di awal.
+Model machine learning **XGBoost** berhasil memprediksi pembatalan reservasi hotel guna meminimalisasi risiko kerugian finansial, membantu pengambilan keputusan tim revenue management dan front office hotel, serta mengoptimalkan operasional hotel. Nilai akurasi yang dihasilkan model sebesar **72%** dan recall pada kelas batal reservasi sebesar **80%**. Angka ini sesuai dengan target dan kebutuhan bisnis yang telah ditetapkan di awal.
