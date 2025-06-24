@@ -58,5 +58,7 @@ Model machine learning yang diuji adalah sebagai berikut:
 ---
 
 ## Kesimpulan
-
-Model machine learning **XGBoost** berhasil memprediksi pembatalan reservasi hotel guna meminimalisasi risiko kerugian finansial, membantu pengambilan keputusan tim revenue management dan front office hotel, serta mengoptimalkan operasional hotel. Nilai akurasi yang dihasilkan model sebesar **72%** dan recall pada kelas batal reservasi sebesar **80%**. Angka ini sesuai dengan target dan kebutuhan bisnis yang telah ditetapkan di awal.
+- *Model Random Forest dipilih sebagai model terbaik* dengan mempertimbangkan besar *recall (85%), **accuracy (59%), **F1-score (59%)*. Dengan begitu, model ini sensitif dalam mendeteksi pembatalan dan cukup akurat walaupun pada kondisi data yang imbalance. 
+- Nilai *AUC (Area Under Curve) sebesar 0.83* menunjukkan bahwa model memiliki tingkat diskriminasi yang kuat. Dengan demikian, model Random Forest sangat layak digunakan sebagai sistem prediksi pembatalan reservasi hotel.
+- Feature yang paling berpengaruh dalam memprediksi pembatalan reservasi adalah *required_car_parking_spaces*, artinya permintaan ruang parkir yang tinggi cenderung berhubungan dengan kemungkinan pembatalan. 
+- Model ini berhasil memprediksi pembatalan reservasi hotel guna meminimalisasi risiko kerugian finansial, membantu pengambilan keputusan tim revenue management dan front office hotel, serta mengoptimalkan operasional hotel. Hal ini didukung oleh hasil simulasi perhitungan laba yang menunjukkan bahwa *laba meningkat 5 kali lipat dan lebih realistis ketika menggunakan model ini untuk prediksi*.
