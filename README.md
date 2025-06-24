@@ -52,8 +52,8 @@ Model machine learning yang diuji adalah sebagai berikut:
 - Logistic Regression
 - KNN
 - Decision Tree
-- Random Forest
-- **XGBoost (Best model)**
+- **Random Forest (Best model)**
+- XGBoost
 
 ---
 
