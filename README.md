@@ -57,7 +57,7 @@ Model machine learning yang diuji adalah sebagai berikut:
 
 ---
 
-## Kesimpulan
+## Conclusion
 - *Model Random Forest dipilih sebagai model terbaik* dengan mempertimbangkan besar *recall (85%), **accuracy (59%), **F1-score (59%)*. Dengan begitu, model ini sensitif dalam mendeteksi pembatalan dan cukup akurat walaupun pada kondisi data yang imbalance. 
 - Nilai *AUC (Area Under Curve) sebesar 0.83* menunjukkan bahwa model memiliki tingkat diskriminasi yang kuat. Dengan demikian, model Random Forest sangat layak digunakan sebagai sistem prediksi pembatalan reservasi hotel.
 - Feature yang paling berpengaruh dalam memprediksi pembatalan reservasi adalah *required_car_parking_spaces*, artinya permintaan ruang parkir yang tinggi cenderung berhubungan dengan kemungkinan pembatalan. 
